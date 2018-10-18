@@ -1,3 +1,10 @@
+
+/**
+ * Remove diacritics (tashkeel) from Arabic text
+ * @author @Ahmed Salama
+ * @param  string $text arabic text with diacritics (tashkeel)
+ * @return string arabic text without the diacritics (tashkeel)
+ */
 def remove_tashkeel(text):
     # Remove honorific sign
     text = text.replace("\u0610", "")  # ARABIC SIGN SALLALLAHOU ALAYHE WA SALLAM
