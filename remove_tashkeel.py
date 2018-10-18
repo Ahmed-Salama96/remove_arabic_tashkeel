@@ -76,4 +76,4 @@ def remove_tashkeel(text):
 if __name__ == "__main__":
     text = "وَمِنَ النَّاسِ مَنْ يَقُولُ آمَنَّا بِاللَّهِ وَبِالْيَوْمِ الآخِرِ وَمَا هُمْ بِمُؤْمِنِينَ "
     plain_text = remove_tashkeel(text)
-    print(plain_text)
+    print(plain_text)  # ومن الناس من يقول آمنا بالله وباليوم الآخر وما هم بمؤمنين 
